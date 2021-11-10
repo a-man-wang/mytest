@@ -121,8 +121,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-#短信配置
-sms = 0
+# 短信配置
+"""腾讯云"""
+TenCent_APP_ID = 666
+TenCent_APP_KEY = "666"
+TenCent_SMS_SIGN = "666"
 
 try:
     from .local_settings import *
