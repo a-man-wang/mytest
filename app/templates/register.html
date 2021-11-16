@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        .account {
+            width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form>
+        {% for field in form %}
+            <div class="clearfix"><label>{{ field.label }}</label></div>
+        {% endfor %}
+
+    </form>
+
+</div>
+</body>
+</html>
