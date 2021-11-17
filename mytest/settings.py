@@ -126,6 +126,10 @@ STATIC_URL = '/static/'
 TenCent_APP_ID = 666
 TenCent_APP_KEY = "666"
 TenCent_SMS_SIGN = "666"
+TENCENT_SMS_TEMPLATE = {
+    "login": 99999,
+    "register": 88888,
+}
 
 try:
     from .local_settings import *
